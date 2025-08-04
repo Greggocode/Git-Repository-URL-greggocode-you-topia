@@ -11,12 +11,15 @@ import Identity from './components/Identity/Identity';
 import Reflection from './components/Reflection/Reflection';
 import Timeline from './components/Timeline/Timeline';
 import Admin from './components/Admin/Admin';
+import Status from './components/Status/Status';
 
 const App = () => {
   return (
     <Router>
       <Header />
       <Routes>
+        <Route path="/" element={<Status />} />
+        <Route path="/status" element={<Status />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />

@@ -6,10 +6,10 @@ const Header = () => {
       <h1>You-topia</h1>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="/status">Status</a></li>
+          <li><a href="/dashboard">Dashboard</a></li>
           <li><a href="/login">Login</a></li>
           <li><a href="/signup">Signup</a></li>
-          <li><a href="/dashboard">Dashboard</a></li>
           <li><a href="/journal">Journal</a></li>
           <li><a href="/personality">Personality</a></li>
           <li><a href="/values">Values</a></li>
